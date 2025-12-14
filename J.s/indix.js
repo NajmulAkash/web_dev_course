@@ -16,5 +16,5 @@ else if(a>1==a<=10){
     console.log("Fail");
 }
 else{
-    console.log("Top");
+    console.log("Top")
 }
