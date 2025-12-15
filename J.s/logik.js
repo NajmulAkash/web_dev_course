@@ -1,7 +1,7 @@
 // const pre="+";
 // switch (pre) {
 //     case "+":
-//         console.log("pre",9+5);
+//         console.log("pre",9+5);5
 //         break;
 //         case "-":
 //             console.log("pre",5+6);
@@ -19,14 +19,14 @@
 //         console.log(i)
 //     }
 // }
- let d=5
-while(d<=10){
-    console.log(d);
-   d++;
-}
-console.log("do")
-do{
-    console.log(d)
-    d++
-}
-while(d<10)
+//  let d=5
+// while(d<=10){
+//     console.log(d);
+//    d++;
+// }
+// console.log("do")
+// do{
+//     console.log(d)
+//     d++
+// }
+// while(d<10)

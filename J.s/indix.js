@@ -1,4 +1,4 @@
-let a=1;
+let a=10;
 a=a+2;
 if(a>80==a<=100){
     console.log("A+");
