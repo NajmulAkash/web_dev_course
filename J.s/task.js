@@ -6,7 +6,7 @@
 
 // divisibal by 2&5
 // for(let a=1;a<=50;a++){
-//     if(a%3==0 && a%5==0)
+//     if(a%3==0 || a%5==0)
 //     console.log(a);
 // }
 
@@ -23,6 +23,18 @@
 //     if(b%2==0)
 //     console.log(b)
 // }
+
+// arr=[2,4,5,3,7,9,1];
+// arr.push(43);
+// console.log(arr);
+// console.log(arr);
+
+let i=50;
+for(let i=1; i<arr1.length; i++){
+    if (arr1[i] > max){
+        max=arr1[i];
+    }
+}
 
 
 
