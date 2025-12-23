@@ -1,0 +1,627 @@
+@media screen and (max-width:1085px) {
+    .ecourse h1{
+        font-size: 25px;
+    }
+    .ecourse h3{
+        font-size: 15px;
+    }
+    .ecourse{
+        height: 10vh;
+    }
+}
+@media screen and (max-width:816px) {
+    .ecourse h1{
+        font-size: 20px;
+    }
+    .ecourse h3{
+        font-size: 13px;
+    }
+    .ecourse{
+        height: 12vh;
+    }
+}
+@media screen and (max-width:804px) {
+    .ecourse{
+        height: 10vh;
+    }
+}
+@media screen and (max-width:668px) {
+    .ecourse h1{
+        font-size: 15px;
+    }
+    .ecourse h3{
+        font-size: 10px;
+    }
+    .ecourse{
+        height: 10vh;
+    }
+}
+@media screen and (max-width:534px) {
+    .ecourse h1{
+        font-size: 10px;
+    }
+    .ecourse h3{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:426px) {
+    .ecourse h1{
+        font-size: 11px;
+    }
+    .ecourse h3{
+        font-size: 7px;
+    }
+    .ecourse{
+        height: 8vh;
+    }
+}
+@media screen and (max-width:382px) {
+    .ecourse h1{
+        font-size: 9px;
+    }
+    .ecourse h3{
+        font-size: 6px;
+    }
+    .ecourse{
+        height: 8vh;
+    }
+}
+@media screen and (max-width:316px) {
+    .ecourse h1{
+        font-size: 7px;
+    }
+    .ecourse h3{
+        font-size: 5px;
+    }
+    .ecourse{
+        height: 6vh;
+    }
+}
+@media screen and (max-width:806px) {
+    .ecourse{
+        height: 80px;
+    }
+}
+@media screen and (max-width:584px) {
+    .ecourse{
+        height: 50px;
+    }
+}
+@media screen and (max-width:1085px) {
+    .sub{
+        height: 60px;
+    }
+    .sub h1{
+        font-size: 25px;
+    }
+    .subject{
+        height: 12vh;
+    }
+}
+@media screen and (max-width:816px) {
+    .sub{
+        height: 50px;
+        width: 150px;
+        margin-left: 10px;
+    }
+    .sub h1{
+        font-size: 20px;
+    }
+    .subject{
+        height: 12vh;
+    }
+}
+@media screen and (max-width:668px) {
+    .sub{
+        height: 40px;
+        width: 100px;
+        margin-left: 10px;
+    }
+    .sub h1{
+        font-size: 15px;
+    }
+    .subject{
+        height: 12vh;
+    }
+}
+@media screen and (max-width:534px) {
+    .sub{
+        height: 30px;
+        width: 80px;
+        margin-left: 10px;
+    }
+    .sub h1{
+        font-size: 12px;
+    }
+    .subject{
+        height: 10vh;
+    }
+}
+@media screen and (max-width:866px) {
+    .sub{
+        height: 40px;
+        width: 100px;
+        margin-left: 10px;
+    }
+    .sub h1{
+        font-size: 15px;
+    }
+    .subject{
+        height: 10vh;
+    }
+}
+@media screen and (max-width:535px) {
+    .sub{
+        height: 30px;
+        width: 90px;
+        margin-left: 10px;
+    }
+    .sub h1{
+        font-size: 12px;
+    }
+    .subject{
+        height: 10vh;
+    }
+}
+@media screen and (max-width:426px) {
+    .sub{
+        height: 25px;
+        width: 80px;
+        margin-left: 5px;
+    }
+    .sub h1{
+        font-size: 10px;
+    }
+    .subject{
+        height: 10vh;
+    }
+}
+@media screen and (max-width:382px) {
+    .sub{
+        height: 20px;
+        width: 70px;
+        margin-left: 5px;
+    }
+    .sub h1{
+        font-size: 9px;
+    }
+    .subject{
+        height: 8vh;
+    }
+}
+@media screen and (max-width:1398px) {
+    .subject{
+        height: 13vh;
+    }
+}
+@media screen and (max-width:1013px) {
+    .subject a{
+        font-size: 28px;
+    }
+    .subject button{
+        font-size: 28px;
+        height: 45px;
+    }
+}
+@media screen and (max-width:947px) {
+    .subject a{
+        font-size: 23px;
+    }
+    .subject button{
+        font-size: 25px;
+        height: 35px;
+        width: 110px;
+    }
+    .sub{
+        width: 140px;
+        height: 50px;
+        margin-left: 10px;
+    }
+    /* .sub h1{
+        width: 150px;
+        font-size: 20px;
+    } */
+}
+@media screen and (max-width:754px) {
+    .subject a{
+        font-size: 20px;
+    }
+    .subject button{
+        font-size: 25px;
+        height: 32px;
+        width: 100px;
+    }
+    .sub{
+        width: 130px;
+        height: 40px;
+        margin-left: 10px;
+    }
+    /* .sub h1{
+        font-size: 15px;
+    } */
+}
+@media screen and (max-width:676px) {
+    .subject a{
+        font-size: 18px;
+    }
+    .subject button{
+        font-size: 23px;
+        height: 30px;
+        width: 90px;
+    }
+    .sub{
+        width: 120px;
+        height: 40px;
+        margin-left: 5px;
+        text-align: center;
+    }
+    /* .sub h1{
+        text-align: center;
+        font-size: 16px;
+    } */
+    .subject{
+        height: 12vh;
+    }
+}
+@media screen and (max-width:603px) {
+    .subject a{
+        font-size: 16px;
+    }
+    .subject button{
+        font-size: 21px;
+        height: 28px;
+        width: 85px;
+    }
+    .sub{
+        width: 110px;
+        height: 35px;
+        margin-left: 5px;
+        text-align: center;
+    }
+   
+    .subject{
+        height: 12vh;
+    }
+}
+@media screen and (max-width:549px) {
+    .subject a{
+        font-size: 14px;
+    }
+    .subject button{
+        font-size: 16px;
+        height: 20px;
+        width: 70px;
+    }
+    .sub{
+        width: 100px;
+        height: 35px;
+        margin-left: 5px;
+        text-align: center;
+    }
+    .subject{
+        height: 10vh;
+    }
+}
+@media screen and (max-width:483px) {
+    .subject a{
+        font-size: 12px;
+    }
+    .subject button{
+        font-size: 14px;
+        height: 18px;
+        width: 60px;
+    }
+    .sub{
+        width: 90px;
+        height: 35px;
+        margin-left: 5px;
+        text-align: center;
+    }
+    .subject{
+        height: 10vh;
+    }
+}
+@media screen and (max-width:426px) {
+    .subject a{
+        font-size: 10px;
+    }
+    .subject button{
+        font-size: 12px;
+        height: 16px;
+        width: 55px;
+    }
+    .sub{
+        width: 80px;
+        height: 35px;
+        margin-left: 5px;
+        text-align: center;
+    }
+    .subject{
+        height: 10vh;
+    }
+}
+@media screen and (max-width:373px) {
+    .subject a{
+        font-size: 10px;
+    }
+    .subject button{
+        font-size: 10px;
+        height: 14px;
+        width: 50px;
+    }
+    .sub{
+        width: 75px;
+        height: 32px;
+        margin-left: 5px;
+        text-align: center;
+    }
+    .subject{
+        height: 10vh;
+    }
+}
+@media screen and (max-width:313px) {
+    .subject a{
+        font-size: 8px;
+    }
+    .subject button{
+        font-size: 9px;
+        height: 12px;
+        width: 45px;
+    }
+    .sub{
+        width: 55px;
+        height: 25px;
+        margin-left: 5px;
+        text-align: center;
+    }
+    .subject{
+        height: 10vh;
+    }
+}
+@media screen and (max-width:1300px) {
+    .subject{
+        height: 100px;
+    }
+}
+@media screen and (max-width:585px) {
+    .subject{
+        height: 70px;
+    }
+}
+@media screen and (max-width:1300px) {
+    .img{
+        height: 60vh;
+        background-size: 100% 60vh;
+    }
+    .div{
+        height: 200px;
+    }
+}
+@media screen and (max-width:950px) {
+    .img{
+        height: 50vh;
+        background-size: 100% 50vh;
+    }
+    .div{
+        height: 150px;
+    }
+    .img h1{
+        margin-left: 100px;
+    }
+    .img h2{
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    .img button{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width:950px) {
+    .img{
+        height: 50vh;
+        background-size: 100% 50vh;
+    }
+    .div{
+        height: 150px;
+    }
+    .img h1{
+        margin-left: 50px;
+        font-size: 50px;
+    }
+    .img h2{
+        margin-top: 10px;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    .img button{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:585px) {
+    .img{
+        height: 40vh;
+        background-size: 100% 40vh;
+    }
+    .div{
+        height: 100px;
+    }
+    .img h1{
+        margin-left: 50px;
+        font-size: 35px;
+    }
+    .img h2{
+        margin-top: 10px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    .img button{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:416px) {
+    .img{
+        height: 30vh;
+        background-size: 100% 30vh;
+    }
+    .div{
+        height: 50px;
+    }
+    .img h1{
+        margin-left: 10px;
+        font-size: 35px;
+    }
+    .img h2{
+        margin-top: 10px;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .img button{
+        margin-left: 10px;
+        width: 130px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:1300px) {
+    .image{
+        height: 50vh;
+        background-size:100% 50vh;
+    }
+    .abo{
+        height: 55vh;
+    }
+}
+@media screen and (max-width:999px) {
+   .about h3{
+    font-size: 25px;
+   }
+}
+@media screen and (max-width:845px) {
+    .about h3{
+        font-size: 20px;
+    }
+    .about h1{
+        font-size: 30px;
+    }
+    .image{
+        height: 40vh;
+        background-size: 100% 40vh;
+    }
+    .abo{
+        height: 45vh;
+    }
+}
+@media screen and (max-width:771px) {
+    .about h1{
+        font-size: 17px;
+    }
+    .about h2{
+        font-size: 17px;
+    }
+    .about h3{
+        font-size: 16px;
+    }
+    .about button{
+        width: 130px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .image{
+        height: 30vh;
+        background-size: 100% 30vh;
+    }
+    .abo{
+        height: 35vh;
+    }
+}
+@media screen and (max-width:594px) {
+    .about h1{
+        font-size: 17px;
+    }
+    .about h2{
+        font-size: 17px;
+    }
+    .about h3{
+        font-size: 16px;
+    }
+    .about button{
+        width: 130px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .image{
+        height: 50vh;
+        background-size: 100% 30vh;
+    }
+}
+@media screen and (max-width:577px) {
+    .about h1{
+        font-size: 15px;
+    }
+    .about h2{
+        font-size: 15px;
+    }
+    .about h3{
+        font-size: 14px;
+    }
+    .about button{
+        width: 130px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .image{
+        height: 50vh;
+        background-size: 100% 30vh;
+    }
+}
+@media screen and (max-width:449px) {
+    .about h1{
+        font-size: 15px;
+    }
+    .about h2{
+        font-size: 15px;
+    }
+    .about h3{
+        font-size: 12px;
+    }
+    .about button{
+        width: 130px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .image{
+        height: 30vh;
+        background-size: 100% 30vh;
+    }
+    .abo{
+        height: 45vh;
+    }
+}
+@media screen and (max-width:449px) {
+    .about h1{
+        font-size: 13px;
+    }
+    .about h2{
+        font-size: 15px;
+    }
+    .about h3{
+        font-size: 10px;
+    }
+    .about button{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .image{
+        height: 20vh;
+        background-size: 100% 20vh;
+    }
+    .abo{
+        height: 35vh;
+    }
+}
