@@ -73,21 +73,17 @@
     .abo{
         height: 55vh;
     }
-    .about button{
-        margin-top: 20px;
-    }
+}
+@media screen and (max-width:1300px) {
     .about h3{
         font-size: 25px;
     }
 }
 @media screen and (max-width:999px) {
    .about h3{
-    font-size: 24px;
+    font-size: 23px;
    }
-   .about button{
-    margin-top: 30px;
-   }
-   }
+}
 @media screen and (max-width:845px) {
     .about h3{
         font-size: 20px;
@@ -111,13 +107,13 @@
         font-size: 17px;
     }
     .about h3{
-        font-size: 17px;
+        font-size: 16px;
     }
     .about button{
         width: 130px;
         height: 40px;
         margin-top: 20px;
-        font-size: 22px;
+        font-size: 20px;
     }
     .image{
         height: 30vh;
@@ -127,7 +123,12 @@
         height: 35vh;
     }
 }
-@media screen and (max-width:594px) {
+@media screen and (max-width:627px) {
+    .about h3{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:595px) {
     .about h1{
         font-size: 17px;
     }
@@ -135,13 +136,12 @@
         font-size: 17px;
     }
     .about h3{
-        font-size: 16px;
+        font-size: 15px;
     }
     .about button{
         width: 130px;
         height: 40px;
         font-size: 20px;
-        margin-top: 20px;
     }
     .image{
         height: 30vh;
@@ -156,7 +156,7 @@
         font-size: 15px;
     }
     .about h3{
-        font-size: 15px;
+        font-size: 13px;
     }
     .about button{
         width: 130px;
@@ -176,7 +176,7 @@
         font-size: 15px;
     }
     .about h3{
-        font-size: 12px;
+        font-size: 11px;
     }
     .about button{
         width: 130px;
@@ -212,40 +212,5 @@
     }
     .abo{
         height: 35vh;
-    }
-}
-@media screen and (max-width:1080px) {
-    .explore{
-    display: flex;
-    height: 125vh;
-}
-
-.explore1{
-    display: block;
-    
-}
-.explore2{
-    display: block;
-}
-.expl1,.expl2,.expl3,.expl4,.expl5,.expl6,.expl7,.expl8{
-    width: 95%;
-}
-}
-@media screen and (max-width:680px) {
-    .explore{
-        display: block;
-        height: 245vh;
-    }
-    .explore1{
-        /* display: flex; */
-        height: 116vh;
-    }
-    .expl1,.expl2,.expl3,.expl4,.expl5,.expl6,.expl7,.expl8{
-    width: 100%;
-}
-}
-@media screen and (max-width:1080px) {
-    .book{
-        margin-top: 50vh;
     }
 }
