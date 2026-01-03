@@ -42,7 +42,7 @@ button{cursor:pointer;}
 .subject button:hover{transform: scale(1.2s);background-color: rgb(80, 204, 80);}
 .img{
     position:relative;
-    height:90vh;
+    height:100vh;
     background:url('loging.jpg') center/cover no-repeat;
     display:flex;
     flex-direction:column;
@@ -69,4 +69,89 @@ button{cursor:pointer;}
 }
 .n h1{
     color: #b74b4b;
+}
+ .page-title{
+    font-size:48px;
+    color:white;
+    margin-bottom:25px;
+    text-align: center;
+}
+.hero{
+    background-image: url(loging.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: 100% 70vh;
+    justify-content: space-around;
+}
+
+/* FORM BOX */
+.contact-form{
+    background:#ff4d4d;
+    width:100%;
+    max-width:450px;
+    padding:30px;
+    border-radius:12px;
+}
+
+.contact-form h2{
+    margin-bottom:20px;
+    color:black;
+}
+
+/* FORM */
+.contact-form form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact-form input{
+    width:100%;
+    padding:12px;
+    font-size:16px;
+    border:none;
+    border-radius:8px;
+}
+
+.contact-form button{
+    padding:14px;
+    font-size:18px;
+    border:none;
+    border-radius:10px;
+    background:orange;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact-form button:hover{
+    background:rgb(80,204,80);
+    color:black;
+}
+
+/* FORM */
+.contact-form{
+    background:#ff4d4d;
+    padding:30px;
+    width:100%;
+    max-width:450px;
+    border-radius:12px;
+}
+.contact-form h2{margin-bottom:20px}
+.contact-form form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+.contact-form input{
+    padding:12px;
+    border-radius:8px;
+    border:none;
+}
+.contact-form button{
+    padding:14px;
+    background:orange;
+    color:white;
+    border-radius:10px;
 }

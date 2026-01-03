@@ -23,18 +23,17 @@
 //     if(b%2==0)
 //     console.log(b)
 // }
+console.log("December")
+arr=["1 hand"];
+arr.push();
+console.log(arr);
 
-// arr=[2,4,5,3,7,9,1];
-// arr.push(43);
-// console.log(arr);
-// console.log(arr);
-
-let i=50;
-for(let i=1; i<arr1.length; i++){
-    if (arr1[i] > max){
-        max=arr1[i];
-    }
-}
+// let i=50;
+// for(let i=1; i<arr.length; i++){
+//     if (arr[i] > max){
+//         max=arr1[i];
+//     }
+// }
 
 
 

@@ -30,34 +30,3 @@
 // console.log("Hardware Mark:",person.mark.Hardware)
 // console.log("Software:",person.mark.Software)
 
-
-setTimeout(() => {
-    console.log("program 1")
-},5000);
-setTimeout(() => {
-    console.log("program 2")
-},2000);
-setTimeout(() => {
-    console.log("program 3")
-},4000);
-setTimeout(() => {
-    console.log("program 4")
-},3000);
-setTimeout(() => {
-    console.log("program 5")
-},1000);
-
-let person={
-    name:"ali",
-    roll:"374",
-    class:"9th",
-    Address:{
-        PermenentAddress:"Balghar",
-        LocalAddress:"Skardu",
-        galeNo:"88439",
-        mark:{
-            java:"83",
-            python:"3738",
-        }
-    }
-}
