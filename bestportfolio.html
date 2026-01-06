@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Creative Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Font Awesome Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{font-family:Poppins,sans-serif;}
+body{background:#f4f6fb;}
+section{padding:100px 0;}
+html{scroll-behavior:smooth}
+
+/* NAVBAR */
+.navbar{box-shadow:0 10px 30px rgba(0,0,0,.2);}
+
+/* HERO */
+.hero{
+  min-height:100vh;
+  background:linear-gradient(135deg,#1d2671,#c33764);
+  color:white;
+  display:flex;
+  align-items:center;
+}
+.hero img{
+  width:360px;
+  height:360px;
+  object-fit:cover;
+  border-radius:50%;
+  border:10px solid white;
+  box-shadow:0 35px 80px rgba(0,0,0,.5);
+  transition:all .6s ease;
+}
+.hero img:hover{
+  transform:scale(1.15) rotate(4deg);
+}
+.social-icons a{
+  color:white;
+  font-size:26px;
+  margin:0 12px;
+  transition:.4s;
+}
+.social-icons a:hover{
+  transform:translateY(-8px) scale(1.4) rotate(8deg);
+  color:#ffd700;
+}
+
+/* TITLES */
+.title{text-align:center;margin-bottom:60px;}
+.title h2{font-weight:700;}
+
+/* CARDS */
+.card-custom{
+  background:white;
+  border-radius:25px;
+  padding:40px;
+  box-shadow:0 20px 50px rgba(0,0,0,.15);
+}
+
+/* SERVICES & SKILLS */
+.service-box,.skill-box{
+  background:white;
+  padding:35px;
+  border-radius:25px;
+  text-align:center;
+  box-shadow:0 20px 40px rgba(0,0,0,.15);
+  transition:.5s;
+}
+.service-box i,.skill-box i{
+  font-size:45px;
+  color:#c33764;
+  margin-bottom:15px;
+  transition:.5s;
+}
+.service-box:hover,.skill-box:hover{
+  transform:translateY(-20px) scale(1.1);
+  box-shadow:0 40px 80px rgba(0,0,0,.3);
+}
+.service-box:hover i,.skill-box:hover i{
+  transform:scale(1.4) rotate(15deg);
+}
+
+/* PROJECTS */
+.project-card{
+  position:relative;
+  overflow:hidden;
+  border-radius:30px;
+  box-shadow:0 30px 70px rgba(0,0,0,.25);
+}
+.project-card img{
+  width:100%;
+  transition:.8s;
+}
+.project-overlay{
+  position:absolute;
+  inset:0;
+  background:linear-gradient(135deg,rgba(195,55,100,.95),rgba(29,38,113,.95));
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  opacity:0;
+  transform:scale(1.2);
+  transition:.6s;
+}
+.project-overlay i{
+  font-size:40px;
+  margin-bottom:15px;
+}
+.project-card:hover img{
+  transform:scale(1.4);
+  filter:blur(2px);
+}
+.project-card:hover .project-overlay{
+  opacity:1;
+  transform:scale(1);
+}
+
+/* PROCESS */
+.process-step{
+  background:white;
+  width:170px;
+  height:170px;
+  border-radius:50%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  box-shadow:0 20px 40px rgba(0,0,0,.15);
+  transition:.4s;
+}
+.process-step i{
+  font-size:30px;
+  color:#c33764;
+  margin-bottom:10px;
+}
+.process-step:hover{
+  transform:scale(1.15);
+}
+
+/* CONTACT */
+.contact-section{
+  background:linear-gradient(135deg,#c33764,#1d2671);
+  color:white;
+}
+.contact-form{
+  background:white;
+  padding:50px;
+  border-radius:30px;
+  box-shadow:0 30px 70px rgba(0,0,0,.3);
+}
+/*about css*/
+.about-wrapper{
+  background:linear-gradient(135deg,#ffffff,#f0f3ff);
+  border-radius:30px;
+  padding:60px;
+  box-shadow:0 40px 90px rgba(0,0,0,.15);
+}
+
+.about-img{
+  width:100%;
+  border-radius:25px;
+  box-shadow:0 25px 60px rgba(0,0,0,.25);
+  transition:.6s;
+}
+
+.about-img:hover{
+  transform:scale(1.05) rotate(-1deg);
+}
+
+.about-badge{
+  display:inline-block;
+  background:#c33764;
+  color:white;
+  padding:8px 20px;
+  border-radius:30px;
+  font-size:14px;
+  margin-bottom:15px;
+}
+
+.about-points li{
+  list-style:none;
+  margin-bottom:12px;
+  font-size:16px;
+}
+
+.about-points i{
+  color:#c33764;
+  margin-right:10px;
+}
+
+.about-stats{
+  background:white;
+  padding:25px;
+  border-radius:20px;
+  text-align:center;
+  box-shadow:0 20px 40px rgba(0,0,0,.15);
+  transition:.4s;
+}
+
+.about-stats:hover{
+  transform:translateY(-10px) scale(1.05);
+}
+
+/*about css*/
+
+
+
+/* FOOTER */
+footer{
+  background:#0b0b0b;
+  color:white;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<div class="container">
+<a class="navbar-brand fw-bold">MyPortfolio</a>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+<li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+<li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+  <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero text-center">
+<div class="container">
+<img src="najmul.jpeg">
+<h1 class="mt-4 fw-bold">Hi, I am Najmul Akash</h1>
+<p class="lead">Creative Web Developer & Designer</p>
+<div class="social-icons mt-3">
+<a href="#"><i class="fab fa-github"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+<a href="#"><i class="fab fa-facebook"></i></a>
+</div>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="title">
+      <h2>About Me</h2>
+      <p>Who I am & what I do</p>
+    </div>
+
+    <div class="about-wrapper">
+      <div class="row align-items-center g-5">
+
+        <!-- LEFT IMAGE -->
+        <div class="col-md-5 text-center">
+          <img src="najmul.jpeg" class="about-img">
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="col-md-7">
+          <span class="about-badge">Professional Web Developer</span>
+          <h3 class="fw-bold mb-3">
+            I Design & Build Modern, <br> High-Quality Websites
+          </h3>
+
+          <p>
+            Main ek creative aur detail-oriented web developer hoon jo
+            modern, responsive aur user-friendly websites create karta hai.
+            Mera focus sirf design nahi balkay performance aur user experience hota hai.
+          </p>
+
+          <ul class="about-points mt-4">
+            <li><i class="fa-solid fa-check-circle"></i> Clean & scalable code</li>
+            <li><i class="fa-solid fa-check-circle"></i> Mobile-first & responsive design</li>
+            <li><i class="fa-solid fa-check-circle"></i> Modern UI / UX principles</li>
+            <li><i class="fa-solid fa-check-circle"></i> Client-focused solutions</li>
+          </ul>
+
+          <!-- STATS -->
+          <div class="row mt-4 g-3">
+            <div class="col-md-4">
+              <div class="about-stats">
+                <h4 class="fw-bold">50+</h4>
+                <p>Projects</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="about-stats">
+                <h4 class="fw-bold">2+</h4>
+                <p>Years Experience</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="about-stats">
+                <h4 class="fw-bold">100%</h4>
+                <p>Satisfaction</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SERVICES -->
+<section id="services">
+<div class="container">
+<div class="title"><h2>My Services</h2></div>
+<div class="row g-4">
+<div class="col-md-4"><div class="service-box"><i class="fa-solid fa-globe"></i><h5>Website Design</h5></div></div>
+<div class="col-md-4"><div class="service-box"><i class="fa-solid fa-cart-shopping"></i><h5>E-Commerce</h5></div></div>
+<div class="col-md-4"><div class="service-box"><i class="fa-solid fa-rocket"></i><h5>Landing Pages</h5></div></div>
+</div>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<div class="container">
+<div class="title"><h2>Skills</h2></div>
+<div class="row g-4">
+<div class="col-md-3"><div class="skill-box"><i class="fab fa-html5"></i><p>HTML5</p></div></div>
+<div class="col-md-3"><div class="skill-box"><i class="fab fa-css3-alt"></i><p>CSS3</p></div></div>
+<div class="col-md-3"><div class="skill-box"><i class="fab fa-bootstrap"></i><p>Bootstrap</p></div></div>
+<div class="col-md-3"><div class="skill-box"><i class="fab fa-js"></i><p>JavaScript</p></div></div>
+</div>
+</div>
+</section>
+<div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><br>
+
+  <div class="progress-bar text-bg-success" style="width: 25%">Html 25%</div>
+</div><br>
+<div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar text-bg-info" style="width: 50%">Css 50%</div>
+</div><br>
+<div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar text-bg-warning" style="width: 75%"> Boostrep75%</div>
+</div><br>
+<div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar text-bg-danger" style="width: 100%">JavaScript 84%</div>
+</div>
+
+<!-- WORK -->
+<section id="work">
+<div class="container">
+<div class="title"><h2>My Selected Work</h2></div>
+<div class="row g-4">
+<div class="col-md-4">
+<div class="project-card">
+<img src="download (1).webp">
+<div class="project-overlay">
+<i class="fa-solid fa-arrow-up-right-from-square"></i>
+<h5>Portfolio Website</h5>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="project-card">
+<img src="OIP (1).webp">
+<div class="project-overlay">
+<i class="fa-solid fa-arrow-up-right-from-square"></i>
+<h5>Business Website</h5>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="project-card">
+<img src="download.webp">
+<div class="project-overlay">
+<i class="fa-solid fa-arrow-up-right-from-square"></i>
+<h5>E-Commerce</h5>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+<div class="container text-center">
+<div class="title"><h2>How I Work</h2></div>
+<div class="d-flex justify-content-center gap-4 flex-wrap">
+<div class="process-step"><i class="fa-solid fa-search"></i><p>Research</p><a href="#" style="background-color: gray; border: none; border-radius: 5px; text-decoration: none;color: white;">Search</a></div>
+<div class="process-step"><i class="fa-solid fa-pen-nib"></i><p>Design</p><a href="#" style="background-color: gray; border: none; border-radius: 5px; text-decoration: none;color: white;">Desing</a></div>
+<div class="process-step"><i class="fa-solid fa-code"></i><p>Develop</p><a href="#" style="background-color: gray; border: none; border-radius: 5px; text-decoration: none;color: white;">Develop</a></div>
+<div class="process-step"><i class="fa-solid fa-cloud-arrow-up"></i><p>Launch</p><a href="#" style="background-color: gray; border: none; border-radius: 5px; text-decoration: none;color: white;">Launch</a></div>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+<div class="container">
+<div class="title text-white"><h2>Contact Me</h2></div>
+<div class="row justify-content-center">
+<div class="col-md-8">
+<div class="contact-form">
+<input class="form-control mb-3" placeholder="Name">
+<input class="form-control mb-3" placeholder="Email">
+<textarea class="form-control mb-3" placeholder="Message"></textarea>
+<button class="btn btn-dark w-100">Send Message</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="text-center py-5">
+<h4>Connect With Me</h4>
+<div class="social-icons mt-3">
+<a href="#"><i class="fab fa-github"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+<a href="#"><i class="fab fa-facebook"></i></a>
+</div>
+<p class="mt-3">© 2025 Najmul Akash</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
