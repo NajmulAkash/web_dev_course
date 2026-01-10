@@ -96,3 +96,15 @@ let promes=new Promise((resolve, reject) => {
     }, 1000);
 })
 
+// Async Function //
+async function getdata() {
+   let reseltformserver=await fetch("https://jsonplaceholder.typicode.com/posts/1")
+}
+getdata()
+console.log(await=reseltformserver.json())
+fetch("https://jsonplaceholder.typicode.com/posts/1")
+.then((data)=>{console.log("Data")})
+.catch((data)=>{error.message})
+.finally((data)=>{console.log("Done")})
+getdata()
+
