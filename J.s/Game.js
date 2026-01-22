@@ -12,6 +12,6 @@ const winpattern=[
 ]
 boxes.forEach((box) => {
     box.addEventListener("click",() => {
-        console.log("ABCKDKS")
+    onclick ="O"
     })
 });
