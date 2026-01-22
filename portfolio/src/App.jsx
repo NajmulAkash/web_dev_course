@@ -1,13 +1,15 @@
-
-import React from "react";
-import Cont from "./SamajV/Cont";
+import React from 'react'
+import './App.css'
+import Website from './SamajV/Website'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Wasa from './SamajV/Wasa';
 function App() {
   return (
     <>
-    <div className="nn">ALi</div>
-    <Cont/>
-    </>
-    );
+    <Website/>
+    <Wasa/>
+   </>
+  )
 }
 
-export default App;
+export default App
