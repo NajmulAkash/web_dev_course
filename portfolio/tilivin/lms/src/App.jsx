@@ -1,10 +1,9 @@
 import React from 'react'
-import Website from './Website'
-
+import Chats from './Chats'
 function App() {
   return (
     <>
-    <Website/>
+    <Chats/>
     </>
   )
 }
