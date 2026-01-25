@@ -6,7 +6,7 @@ import Wasa from './SamajV/Wasa';
 function App() {
   return (
     <>
-    <Website/>
+    {/* <Website/> */}
     <Wasa/>
    </>
   )
