@@ -1,9 +1,10 @@
 import React from 'react'
-import Chats from './Chats'
+import Facebook from './Facebook'
+
 function App() {
   return (
     <>
-    <Chats/>
+    <Facebook/>
     </>
   )
 }
