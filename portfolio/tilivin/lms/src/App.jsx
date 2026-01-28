@@ -1,11 +1,8 @@
 import React from 'react'
-import Facebook from './Facebook'
 
 function App() {
   return (
-    <>
-    <Facebook/>
-    </>
+    <div className='w-screen h-screen dar'>App</div>
   )
 }
 

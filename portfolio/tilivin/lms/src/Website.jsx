@@ -1,5 +1,4 @@
 import React from 'react'
-import photo from '../photo/nnn.png'
 function Website() {
   return (
   <>
