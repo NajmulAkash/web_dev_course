@@ -32,16 +32,4 @@ console.log(c);
     }
 }
 
-//    //
-{
-    let a=6;
-    
-    if(a>=0 == a>=90){
-        console.log("Even Number")
-    }
-    else {
-        console.log("Old Number")
-    }
-}
-
 
