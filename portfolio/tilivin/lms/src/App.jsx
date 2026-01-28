@@ -1,8 +1,13 @@
+
 import React from 'react'
+import Facebook from './Facebook'
+import Chats from './Home task/Chats'
 
 function App() {
   return (
-    <div className='w-screen h-screen dar'>App</div>
+  <>
+    <Facebook/>
+    </>
   )
 }
 
