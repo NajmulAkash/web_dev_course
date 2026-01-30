@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from '../Image/oil.jpg.jpg'
+import Image from '../Image/nnn.jpg'
 
 function Flex() {
   return (
