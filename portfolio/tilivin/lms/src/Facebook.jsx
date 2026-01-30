@@ -2,7 +2,7 @@ import React from 'react'
 
 function Facebook() {
   return (
-    <div className='bg-gray-300 h-screen w-screen  flex lg:bg-red-600 xl:bg-green-600 md:bg-yellow-600 sm:bg-pink-900'>
+    <div className='bg-gray-300 h-screen w-screen  flex'>
       <div className='w-96 mx-60 py-40 lg:mx-52 md:mx-40'>
         <h1 className='text-6xl font-bold text-blue-600'>Facebook</h1>
         <p className='text-xl py-4 font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores magnam .</p>

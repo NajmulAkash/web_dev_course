@@ -1,12 +1,10 @@
-
 import React from 'react'
-import Facebook from './Facebook'
-import Chats from './Home task/Chats'
+import Portfolio from './Home task/Portfolio'
 
 function App() {
   return (
-  <>
-    <Facebook/>
+    <>
+    <Portfolio/>
     </>
   )
 }
