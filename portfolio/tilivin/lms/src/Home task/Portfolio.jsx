@@ -1,6 +1,6 @@
 
 import React from 'react'
-import Photo from '../photo/oil.jpg.jpg'
+import Photo from '../Image/oil.jpg.jpg'
 
 function Portfolio() {
   return (
