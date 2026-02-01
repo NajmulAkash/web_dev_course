@@ -1,12 +1,9 @@
 import React from 'react'
-import Portfolios from './Npa/Portfolios'
-import HeroS from './Npa/HeroS'
-
+import Project from './Npa/Project'
 function App() {
   return (
     <>
-    <Portfolios/>
-    <HeroS/>
+    <Project/>
     </>
   )
 }

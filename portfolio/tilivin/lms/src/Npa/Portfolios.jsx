@@ -4,9 +4,9 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full bg-white shadow z-50">
+    <nav className="fixed w-full bg-red-400 shadow z-50 ">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-teal-500">
+        <h1 className="text-2xl font-bold text-white">
           MyPortfolio
         </h1>
 
