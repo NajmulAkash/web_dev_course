@@ -1,9 +1,9 @@
 import React from 'react'
-import Project from './Npa/Project'
+import HeroS from './Npa/HeroS'
 function App() {
   return (
     <>
-    <Project/>
+    <HeroS/>
     </>
   )
 }
