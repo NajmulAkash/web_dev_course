@@ -1,8 +1,9 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Image from '../Image/najmul.png'
 
 function DevelopersCard() {
   return (
-    <section className="bg-gray-950 py-16">
+    <section className="bg-gray-800 py-16">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Section Heading */}
@@ -23,7 +24,7 @@ function DevelopersCard() {
             {/* Avatar */}
             <div className="flex justify-center">
               <img
-                src="https://i.pravatar.cc/150"
+                src={Image}
                 alt="Developer"
                 className="w-28 h-28 rounded-full border-4 border-indigo-500"
               />

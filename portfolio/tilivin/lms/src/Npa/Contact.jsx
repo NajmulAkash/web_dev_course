@@ -3,9 +3,9 @@ import React from 'react'
 function Contact() {
   return (
     <>
-      <section className='py-16 bg-red-700'>
+      <section className='py-16 bg-gray-700'>
       <div className='max-w-4xl mx-auto px-4'>
-        <h2 className='text-3xl font-bold-text-center mb-10'>
+        <h2 className='text-3xl font-bold-text-center mb-10 text-white'>
           Contact Me
         </h2>
         <form className='bg-white p-8 rounded-lg shadow -md'>
