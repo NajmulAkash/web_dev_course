@@ -1,14 +1,10 @@
 import React from 'react'
-import './App.css'
-import Website from './SamajV/Website'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Wasa from './SamajV/Wasa';
+import From from './SamajV/From'
 function App() {
   return (
     <>
-    {/* <Website/> */}
-    <Wasa/>
-   </>
+    <From/>
+    </>
   )
 }
 
