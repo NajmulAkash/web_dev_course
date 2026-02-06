@@ -44,7 +44,7 @@ function Footers() {
           </div>
         </div>
       </div>
-      <div className="border-t border-gray-800 text-center py-4 text-sm text-gray-500">
+      <div className="border-t border-gray-800 text-center py-4 text-sm text-white">
         © {new Date().getFullYear()} Najmul Akash. All rights reserved.
       </div>
     </footer>
