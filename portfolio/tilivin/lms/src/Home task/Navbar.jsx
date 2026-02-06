@@ -182,8 +182,9 @@ export default function Navbar() {
 
   const navItems = [
     { name: "Home", id: "home" },
-    { name: "About", id: "about" },
-    { name: "Service", id: "service" },
+    { name: "Place", id: "About" },
+    { name: "Gallery", id: "service" },
+    { name: "Tours", id: "contact" },
     { name: "Contact", id: "contact" },
   ];
 
@@ -193,7 +194,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <a href="#home" className="text-2xl font-bold text-purple-600">
-            MyLogo
+            Visit Gilgit
           </a>
 
           {/* Desktop Menu */}

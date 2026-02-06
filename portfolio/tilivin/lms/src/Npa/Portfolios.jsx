@@ -15,6 +15,7 @@ const Navbar = () => {
           <li className="hover:text-teal-500 cursor-pointer text-white">Home</li>
           <li className="hover:text-teal-500 cursor-pointer text-white">About</li>
           <li className="hover:text-teal-500 cursor-pointer text-white">Projects</li>
+          <li className="hover:text-teal-500 cursor-pointer text-white">Developers</li>
           <li className="hover:text-teal-500 cursor-pointer text-white">Contact</li>
         </ul>
 
