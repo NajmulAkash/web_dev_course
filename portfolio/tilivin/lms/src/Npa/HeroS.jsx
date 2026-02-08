@@ -3,7 +3,7 @@ import Image from '../Image/najmul.png'
 
 function HeroS() {
   return (
-    <section className="min-h-screen  flex items-center bg-indigo-400">
+    <section className="min-h-screen  flex items-center bg-indigo-400" id='Home'>
       <div className="max-w-7xl mx-auto px-6 w-full">
         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10">
 

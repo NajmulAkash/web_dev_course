@@ -29,7 +29,7 @@ function Footers() {
             Connect With Me
           </h3>
           <div className="flex space-x-4 text-xl">
-            <a href="#" className="hover:text-indigo-400 transition">
+            <a href="https://github.com/NajmulAkash" className="hover:text-indigo-400 transition">
               <FaGithub />
             </a>
             <a href="#" className="hover:text-indigo-400 transition">

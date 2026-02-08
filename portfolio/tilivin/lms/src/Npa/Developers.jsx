@@ -3,7 +3,7 @@ import Image from '../Image/najmul.png'
 
 function DevelopersCard() {
   return (
-    <section className="bg-gray-800 py-16">
+    <section className="bg-gray-800 py-16"id="Developers">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Section Heading */}

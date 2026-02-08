@@ -1,13 +1,21 @@
 import React from 'react'
-import Navbar from './Home task/Navbar'
-import TourisAbout from './Home task/TourisAbout'
-import Heros from './Home task/Heros'
+import Portfolios from './Npa/Portfolios'
+import Skills from './Npa/Skills'
+import Developers from './Npa/Developers'
+import Footers from './Npa/Footers'
+import Contact from './Npa/Contact'
+import HeroS from './Npa/HeroS'
+import Projects from './Npa/Project'
 function App() {
   return (
     <>
-    <Navbar/>
-    <Heros/>
-    <TourisAbout/>
+    <Portfolios/>
+    <HeroS/>
+    <Skills/>
+    <Developers/>
+    <Projects/>
+    <Contact/>
+    <Footers/>
     </>
   )
 }

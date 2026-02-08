@@ -12,11 +12,11 @@ const Navbar = () => {
 
    
         <ul className="hidden md:flex gap-8 font-medium">
-          <li className="hover:text-teal-500 cursor-pointer text-white">Home</li>
-          <li className="hover:text-teal-500 cursor-pointer text-white">About</li>
-          <li className="hover:text-teal-500 cursor-pointer text-white">Projects</li>
-          <li className="hover:text-teal-500 cursor-pointer text-white">Developers</li>
-          <li className="hover:text-teal-500 cursor-pointer text-white">Contact</li>
+          <a href="#Home"><li className="hover:text-teal-500 cursor-pointer text-white">Home</li></a>
+          <a href="#About"><li className="hover:text-teal-500 cursor-pointer text-white">About</li></a>
+        <a href="#projects"><li className="hover:text-teal-500 cursor-pointer text-white">Projects</li></a>
+          <a href="#Developers"><li className="hover:text-teal-500 cursor-pointer text-white">Developers</li></a>
+          <a href="#Contact"><li className="hover:text-teal-500 cursor-pointer text-white">Contact</li></a>
         </ul>
 
         <button
