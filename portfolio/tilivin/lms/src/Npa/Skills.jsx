@@ -30,7 +30,7 @@ const About = () => {
         
     ];
     return (
-        <section id="about" className="py-20 bg-gray-900 text-white">
+        <section id="about" className="py-20 text-white bg-gray-900">
             <div className="max-w-6xl mx-auto px-6 md:flex md:items-center md:gap-12">
                 <div className="mb-8 md:mb-0 md:flex-shrink-0">
                 <img src="src/Image/najmul.png" alt="najmul" className="w-48 h-48 rounded-full border-green-400 shadow-xl mx-auto md:mx-0" />
