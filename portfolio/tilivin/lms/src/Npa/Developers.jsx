@@ -60,10 +60,10 @@ function DevelopersCard() {
 
             {/* Social */}
             <div className="flex justify-center gap-6 mt-6 text-xl">
-              <a href="#" className="hover:text-indigo-400 transition">
+              <a href="https://github.com/NajmulAkash" className="hover:text-indigo-400 transition text-white">
                 <FaGithub />
               </a>
-              <a href="#" className="hover:text-indigo-400 transition">
+              <a href="#" className="hover:text-indigo-400 transition text-white *:">
                 <FaLinkedin />
               </a>
             </div>

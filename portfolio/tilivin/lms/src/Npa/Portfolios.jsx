@@ -28,11 +28,12 @@ const Navbar = () => {
       </div>
       
       {open && (
-        <ul className="md:hidden bg-white px-6 pb-4 space-y-3 font-medium">
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+        <ul className="md:hidden bg-gray-600 px-6 pb-4 font-medium space-y-3">
+          <a href="#Home"><li className='text-white'>Home</li></a>
+          <a href="#About"><li className='text-white'>About</li></a>
+          <a href="#projects"><li className='text-white'>Projects</li></a>
+          <a href="#Developers"><li className='text-white'>Developers</li></a>
+          <a href="#Contact"><li className='text-white'>Contact</li></a>
         </ul>
       )}
     </nav>

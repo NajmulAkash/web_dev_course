@@ -38,7 +38,7 @@ function Footers() {
             <a href="#" className="hover:text-indigo-400 transition">
               <FaTwitter />
             </a>
-            <a href="mailto:your@email.com" className="hover:text-indigo-400 transition">
+            <a href="najmulbalghari23@gmail.com" className="hover:text-indigo-400 transition">
               <FaEnvelope />
             </a>
           </div>

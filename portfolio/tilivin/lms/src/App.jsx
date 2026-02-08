@@ -6,6 +6,7 @@ import Footers from './Npa/Footers'
 import Contact from './Npa/Contact'
 import HeroS from './Npa/HeroS'
 import Projects from './Npa/Project'
+import TourisAbout from './Home task/TourisAbout'
 function App() {
   return (
     <>
