@@ -20,7 +20,6 @@ function DevelopersCard() {
         <div className="flex justify-center">
           <div className="bg-gray-900 rounded-2xl p-8 w-full max-w-md
                           shadow-lg hover:shadow-indigo-500/20 transition">
-
             {/* Avatar */}
             <div className="flex justify-center">
               <img

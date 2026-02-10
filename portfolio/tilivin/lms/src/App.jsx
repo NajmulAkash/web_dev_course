@@ -1,22 +1,21 @@
 import React from 'react'
 import Portfolios from './Npa/Portfolios'
+import HeroS  from './Npa/HeroS'
 import Skills from './Npa/Skills'
 import Developers from './Npa/Developers'
-import Footers from './Npa/Footers'
+import Project from './Npa/Project'
 import Contact from './Npa/Contact'
-import HeroS from './Npa/HeroS'
-import Projects from './Npa/Project'
-import TourisAbout from './Home task/TourisAbout'
+import Footers from './Npa/Footers'
 function App() {
   return (
     <>
-    <Portfolios/>
-    <HeroS/>
-    <Skills/>
-    <Developers/>
-    <Projects/>
-    <Contact/>
-    <Footers/>
+   <Portfolios/>
+   <HeroS/>
+   <Skills/>
+   <Developers/>
+   <Project/>
+   <Contact/>
+   <Footers/>
     </>
   )
 }

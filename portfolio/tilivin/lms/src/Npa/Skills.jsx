@@ -1,19 +1,4 @@
-// import React from 'react'
 
-// function Skills() {
-    
-//   return (
-//  <div className='w-full h-screen bg-gray-600 flex'>
-//     <div className='w-60 h-60 bg-gray-950 ml-20 mt-7 rounded-full'>
-//         <h1 className='text-3xl mt-72 text-center text-white'>About Me</h1>
-//         <h2 className='text-3xl my-5 text-center text-white'>Skills</h2>
-//         <div className='bg-red-800 w-96 h-32 '></div>
-//     </div>
-//  </div>
-//   )
-// }
-
-// export default Skills
 
 
 import React from "react";
@@ -35,11 +20,10 @@ const About = () => {
                 <div className="mb-8 md:mb-0 md:flex-shrink-0">
                 <img src="src/Image/najmul.png" alt="najmul" className="w-48 h-48 rounded-full border-green-400 shadow-xl mx-auto md:mx-0" />
             </div>
-
             <div className="text-center md:text-left">
                 <h2 className="text-4xl font-bold mb-4 relative inline-block">About Me</h2>
                 <p className="text-gray-300 mb-6 leading-relaxed text-lg">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aliquam vel distinctio. Placeat laborum aut officiis laboriosam qui enim, dolorem architecto quibusdam iste pariatur veniam vero atque ea non vel.
+                    I am a professional Web Developer with skills in designing, developing, and maintaining modern, responsive, and user-friendly websites and web applications. I have experience working with front-end technologies like HTML, CSS, JavaScript, React, and Tailwind CSS, as well as understanding back-end concepts and databases. I focus on clean code, attractive UI/UX design, and performance optimization to deliver high-quality digital solutions. My goal is to build efficient, scalable, and visually appealing web products that meet client and user needs.
                 </p>
 
                 <h3 className="text-2xl font-semibold mb-4">SKILLS</h3>
@@ -48,7 +32,7 @@ const About = () => {
                     {skills.map((skills , i) => (
                         <div
                         key={i}
-                        className="flex flex-col items-center justify-center bg-gray-800 p-4 rounded-lg shadow-md hover:scale-105 transition-transform"
+                        className="flex flex-col items-center justify-center bg-gray-800 p-4 rounded-lg shadow-md hover:scale-105 transition-transform text-3xl"
                         >
                             {skills.icon}
                             
