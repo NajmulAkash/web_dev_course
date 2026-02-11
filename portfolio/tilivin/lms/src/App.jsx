@@ -1,9 +1,15 @@
 import React from 'react'
-import Myfunction from './Home task/Myfunction'
+import Heros from './Home task/Heros'
+import Navbar from './Home task/Navbar'
+import TourisAbout from './Home task/TourisAbout'
+import TravelFooters from './Home task/TravelFooters'
 function App() {
   return (
     <>
-    <Myfunction/>
+    <Navbar/>
+   <Heros/>
+   <TourisAbout/>
+   <TravelFooters/>
     </>
   )
 }

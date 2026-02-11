@@ -3,20 +3,22 @@ import Image from '../Image/Ka.webp'
 function TourisAbout() {
   return (
    <>
-   <div className='w-full h-screen bg-red-500 '>
-    <h1 className='text-4xl text-center  font-bold py-6 space-y-7'>Popular Destinations</h1>
-    <div className='w-full h-4/5 flex space-x-20 px-14 justify-center items-center'>
-    <div className='w-72 h-72 bg-green-500 rounded-xl'>
-        <img src="C:\Users\lenovo\Pictures\ss\Gemini_Generated_Image_g22afwg22afwg22a.png" alt="" className='w-72 h-72 rounded-xl bg-cover object-cover' />
+   <div className='w-full h-fit'>
+    <h1 className='text-2xl font-semibold text-center py-3 md:text-3xl lg:text-5xl'>Popular Destinations</h1>
+    <div className='flex justify-around py-4 lg:py-8'>
+    <div className='w-1/3 h-20 md:h-32 bg-gray-600 rounded-lg lg:h-44'>
+    <img src="src\Image\lack.webp" alt="" className='w-fit h-full  object-cover md:w-full rounded-lg' />
     </div>
-    <div className='w-72 h-72 bg-green-500 rounded-xl'>
-        <img src="https://plus.unsplash.com/premium_photo-1724753996112-f5418fb61aad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGFja3xlbnwwfHwwfHx8MA%3D%3D   " alt="" className='w-72 h-72 rounded-xl bg-cover object-cover' />
+    <div className='w-1/3 h-20 md:h-32 bg-gray-600 rounded-lg lg:h-44'>
+    <img src="src\Image\lack.webp" alt="" className='w-fit h-full  object-cover md:w-full rounded-lg' />
     </div>
-    <div className='w-72 h-72 bg-green-500 rounded-xl'>
-        <img src={Image} alt="" className='w-72 h-72 rounded-xl bg-cover object-cover' />
     </div>
-    <div className='w-72 h-72 bg-green-500 rounded-xl'>
-        <img src={Image} alt="" className='w-72 h-72 rounded-xl bg-cover object-cover' />
+    <div className='flex justify-around py-4'>
+    <div className='w-1/3 h-20 md:h-32 bg-gray-600 rounded-lg lg:h-44'>
+    <img src="src\Image\Kachura.webp" alt="" className='w-fit h-full  object-cover md:w-full rounded-lg' />
+    </div>
+    <div className='w-1/3 h-20 md:h-32 bg-gray-600 rounded-lg lg:h-44'>
+    <img src="src\Image\kurnia-ramadhan-V0oowoWaFf4-unsplash.jpg" alt="" className='w-fit h-full  object-cover md:w-full rounded-lg' />
     </div>
     </div>
    </div>
