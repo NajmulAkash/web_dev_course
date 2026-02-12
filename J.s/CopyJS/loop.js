@@ -11,9 +11,9 @@
 //         console.log(${i} X ${j} = ${i*j});
 //     }  }
 
-for(let i=1;i<=10;i++){
-    for(let j=1;j<=10;j++){
-        console.log("*" ,"");}}
+// for(let i=1;i<=10;i++){
+//     for(let j=1;j<=10;j++){
+//         console.log("*" ,"");}}
         
 // for(let i=1;i<=5;i++){ 
 //     let str="";
@@ -31,8 +31,15 @@ for(let i=1;i<=10;i++){
 //     }
 //     console.log(str);}
 
-for(let i=1;i<=10;i++){
-    for(let j=1;j<=10;j++){
-        console.log("*");
+// for(let i=1;i<=10;i++){
+//     for(let j=1;j<=10;j++){
+//         console.log("*");
+//     }
+// }
+
+for(a=1;a<=10;a++){
+    if(a==2 || a==4 || a==6){
+        continue
     }
 }
+console.log(a)
