@@ -16,3 +16,5 @@ let inam={
     }
 
 }
+console.log(inam)
+console.log(inam,name)
