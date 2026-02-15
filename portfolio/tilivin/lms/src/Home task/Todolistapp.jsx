@@ -1,54 +1,32 @@
-import { useState } from "react";
+import React, { useState } from 'react'
 
-function App() {
-  const [task, setTask] = useState("");
-  const [tasks, setTasks] = useState([]);
-
-  const addTask = () => {
-    if (task === "") return;
-    setTasks([...tasks, task]);
-    setTask("");
-  };
-
-  const deleteTask = (index) => {
-    const newTasks = tasks.filter((_, i) => i !== index);
-    setTasks(newTasks);
-  };
-
+function Todolistapp() {
+  const [text,setText]=useState('')
+  const[item,setItems]=useState([])
+  const AddItems=()=>{
+    if(text.trim()==='')return
+    setItems([...item,text])
+    setText('')
+  }
   return (
-    <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center p-10">
-      <h1 className="text-3xl mb-5">To-Do App</h1>
-
-      <div className="flex gap-2">
-        <input
-          className="p-2 text-black rounded"
-          value={task}
-          onChange={(e) => setTask(e.target.value)}
-          placeholder="Enter Task"
-        />
-        <button
-          onClick={addTask}
-          className="bg-blue-500 px-4 py-2 rounded"
-        >
-          Add
-        </button>
-      </div>
-
-      <ul className="mt-5 space-y-2">
-        {tasks.map((t, i) => (
-          <li key={i} className="bg-gray-700 p-3 rounded flex gap-3">
-            {t}
-            <button
-              onClick={() => deleteTask(i)}
-              className="bg-red-500 px-2 rounded"
-            >
-              Delete
-            </button>
-          </li>
+    
+    <div className='w-full h-screen bg-gray-600 justify-center'>
+      <input type="text" placeholder='Enter Your Message ' className='w-52 h-8 rounded-md font-semibold px-2 py-2 flex-1 ml-16 mt-11 outline-none md:w-64 md:h-10 md:ml-52 lg:w-80 lg:ml-96'value={text} onChange={(e)=>setText(e.target.value)} onKeyDown={(e)=>{
+        if(e.key==="Enter"){
+          AddItems()
+        }
+      }}/>
+      <button className='ml-3 font-semibold text-xl md:text-2xl ' onClick={AddItems}>Add</button>
+      
+      <ul className='text-white mt-4'>
+        {item.map((value,index)=>(
+          <li key={index}>
+            {value}
+            </li>
         ))}
       </ul>
     </div>
-  );
+  )
 }
 
-export default App;
+export default Todolistapp

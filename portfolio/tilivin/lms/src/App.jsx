@@ -1,10 +1,9 @@
 import React from 'react'
-import Todolist from './Home task/Todolist'
+import Todolistapp from './Home task/Todolistapp'
 function App() {
   return (
     <>
-    <Todolist/>
-    
+    <Todolistapp/>
     </>
   )
 }
