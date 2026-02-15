@@ -1,9 +1,9 @@
 import React from 'react'
-import Todolistapp from './Home task/Todolistapp'
+import TravelFooters from './Home task/TravelFooters'
 function App() {
   return (
     <>
-    <Todolistapp/>
+    <TravelFooters/>
     </>
   )
 }
