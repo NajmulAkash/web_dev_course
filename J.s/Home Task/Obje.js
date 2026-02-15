@@ -11,10 +11,9 @@ let inam={
         TailwindCss:"95%",
         Exprences:{
             exprences:"Four Year Exprences",
-            Pro:"Ultra Pro Ha html css boostrep tailwind css react js SQl"
+            Pro:"Ultra Pro Ha html css boostrep tailwind css react js SQl sab ma"
         }
     }
 
 }
 console.log(inam)
-console.log(inam,name)
