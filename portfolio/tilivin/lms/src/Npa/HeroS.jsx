@@ -32,6 +32,7 @@ function HeroS() {
         </div>
       </div>
     </section>
+    
   )
 }
 

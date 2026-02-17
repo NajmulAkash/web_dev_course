@@ -3,7 +3,7 @@ import TravelFooters from './Home task/TravelFooters'
 function App() {
   return (
     <>
-    <TravelFooters/>
+   
     </>
   )
 }
