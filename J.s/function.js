@@ -62,12 +62,12 @@
 
 
 // push Array;
-// let arr=["ali" ,"inam" ,"Najmul"];
-// arr.push("Yaseen");
-// console.log(arr);
+let arr=["ali" ,"inam" ,"Najmul"];
+arr.push("Yaseen");
+console.log(arr);
 
 // functionm plus more number
-function sum(a,...b){
-    return a+b;
-}
-console.log(sum(2,4,4,3,3,7));
+// function sum(a,...b){
+//     return a+b;
+// }
+// console.log(sum(2,4,4,3,3,7));
