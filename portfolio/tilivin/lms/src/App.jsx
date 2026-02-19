@@ -1,9 +1,10 @@
 import React from 'react'
-import TravelFooters from './Home task/TravelFooters'
+import About from './PanoteTask/About'
 function App() {
   return (
     <>
-   
+   {/* <Team/> */}
+   <About/>
     </>
   )
 }
