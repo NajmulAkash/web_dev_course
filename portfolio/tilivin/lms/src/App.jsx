@@ -1,9 +1,11 @@
 import React from 'react'
-import ResponsiveNavbar from './Home task/ResponsiveNavbar'
+import About from './PanoteTask/About'
+import Team from './PanoteTask/Team'
 function App() {
   return (
     <>
-    <ResponsiveNavbar/>
+    {/* <About/> */}
+    <Team/>
     </>
   )
 }
