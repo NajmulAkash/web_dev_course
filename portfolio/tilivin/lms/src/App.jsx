@@ -4,8 +4,8 @@ import AddShortCut from './PanoteTask/AddShortCut'
 function App() {
   return (
     <>
-    <Google/>
-   {/* <AddShortCut/> */}
+    {/* <Google/> */}
+   <AddShortCut/>
     </>
   )
 }
