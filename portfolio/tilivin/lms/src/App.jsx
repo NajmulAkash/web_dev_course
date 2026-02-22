@@ -1,11 +1,11 @@
 import React from 'react'
-import About from './PanoteTask/About'
-import Team from './PanoteTask/Team'
+import Google from './PanoteTask/Google'
+import AddShortCut from './PanoteTask/AddShortCut'
 function App() {
   return (
     <>
-    {/* <About/> */}
-    <Team/>
+    <Google/>
+   <AddShortCut/>
     </>
   )
 }
