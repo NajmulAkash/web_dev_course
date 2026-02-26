@@ -4,6 +4,7 @@ import AddShortCut from './PanoteTask/AddShortCut'
 import { Route, Routes } from 'react-router-dom'
 import About from './PanoteTask/About'
 import Navbar from './PanoteTask/Navbar'
+import Sidebar from './panoteTask/Sidebar'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Route path='/AddShortCut' element={<AddShortCut />} />
         <Route path='/About' element={<About />} />
       </Routes> */}
-      <Navbar/>
+      {/* <Navbar/> */}
+      <Sidebar/>
     </>
   )
 }
