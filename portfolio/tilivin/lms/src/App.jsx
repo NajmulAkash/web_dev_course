@@ -4,7 +4,7 @@ import AddShortCut from './PanoteTask/AddShortCut'
 import { Route, Routes } from 'react-router-dom'
 import About from './PanoteTask/About'
 import Navbar from './PanoteTask/Navbar'
-import Sidebar from './panoteTask/Sidebar'
+import Sidebar from './PanoteTask/Sidebar'
 
 function App() {
   return (

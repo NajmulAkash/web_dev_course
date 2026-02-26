@@ -1,47 +1,24 @@
-import React from "react";
+import React from 'react'
 
 function Sidebar() {
   return (
-    <div className="flex">
-
-      {/* Sidebar */}
-      <div className="w-64 h-screen bg-blue-600 text-white p-5">
-
-        <h1 className="text-2xl font-bold mb-6">
-          My Sidebar
-        </h1>
-
-        <ul className="space-y-4">
-
-          <li className="hover:bg-blue-800 p-2 rounded">
-            Home
-          </li>
-
-          <li className="hover:bg-blue-800 p-2 rounded">
-            About
-          </li>
-
-          <li className="hover:bg-blue-800 p-2 rounded">
-            Courses
-          </li>
-
-          <li className="hover:bg-blue-800 p-2 rounded">
-            Contact
-          </li>
-
-        </ul>
-
-      </div>
-
-      {/* Content */}
-      <div className="flex-1 p-10">
-        <h1 className="text-3xl font-bold">
-          Main Content
-        </h1>
-      </div>
-
+    <>
+    <div className='flex'>
+        <div className='w-72 h-screen bg-blue-700'>
+            <h1 className='text-4xl font-semibold text-white px-4 py-6'>Sidebar</h1>
+            <ul className='px-10 space-y-5'>
+                <li className='text-3xl text-white hover:bg-blue-900 cursor-pointer'>Home</li>
+                <li className='text-3xl text-white hover:bg-blue-900 cursor-pointer'>Home</li>
+                <li className='text-3xl text-white hover:bg-blue-900 cursor-pointer'>Home</li>
+                <li className='text-3xl text-white hover:bg-blue-900 cursor-pointer'>Home</li>
+                <li className='text-3xl text-white hover:bg-blue-900 cursor-pointer'>Home</li>
+                <li className='text-3xl text-white hover:bg-blue-900 cursor-pointer'>Home</li>
+            </ul>
+        </div>
+        <nav className='bg-blue-500'></nav>
     </div>
-  );
+    </>
+  )
 }
 
-export default Sidebar;
+export default Sidebar
