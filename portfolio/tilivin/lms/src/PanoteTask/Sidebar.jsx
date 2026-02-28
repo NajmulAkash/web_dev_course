@@ -44,10 +44,10 @@ function Layout() {
         </div>
 
         {/* Content */}
-        <div className="flex-1 p-10">
-          <h1 className="text-3xl font-bold">
-            Main Content
-          </h1>
+        <div className="flex-1 p-10 bg-red-600">
+          <div className="w-1/2 bg-gray-500 h-40
+          "></div>
+          <div></div>
         </div>
 
       </div>
