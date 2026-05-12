@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 70vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.2vmin;
+    text-align: center;
+    color: white;
+}
+.box{
+    width: 18vmin;
+    height: 18vmin;
+    border: none;
+    border-radius: 10px;
+    color: red;
+    font-size: 8vmin;
+}

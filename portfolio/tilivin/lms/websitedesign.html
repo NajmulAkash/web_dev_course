@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design</title>
+    <style>
+        .head{
+        }
+        @media screen and(max-width: 1200px) {
+           .ecourses{
+            font-size: 10px;
+           }
+        }
+        .ecourses{
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .ecourse h1{
+            font-size: 30px;
+        }
+        .ecourse{
+           margin: 10px;
+        }
+        .navigation{
+            display: flex;
+         
+            width: 100%;
+            
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .navigation h1{
+            width: 200px;
+            height: 50px;
+           background-color: rgb(245, 236, 224);
+            text-align: center;
+            margin-left: 10px;
+        }
+        .nav{
+            justify-content: space-around;
+            font-size: 25px;
+            margin-top: 20px;
+        }
+        .join{
+            margin-top: 10px;
+            border-radius: 10px;
+            width: 200px;
+            height: 70px;
+        }
+        .join button{
+            font-size: 30px;
+            margin-top: 10px;
+            margin-left: 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: orange;
+            cursor: pointer;
+        }
+        .img{
+            display: flex;
+            background-repeat: no-repeat;
+            background-image: url(n.jpg);
+            background-size: 100% 100vh;
+            width: 100%;
+            height: 80vh;
+        }
+        .home{
+            font-size: 30px;
+            color: wheat;
+            margin: 30px;
+            margin-left: 300px;
+        }
+        .home button{
+            font-size: 20px;
+            background-color: red;
+            border-radius: 10px;
+            border: none;
+            width: 150px;
+            height: 50px;
+            text-align: center;
+        }
+        .home button a{
+            color: white;
+            text-decoration: none;
+        }
+       .container{
+       
+        display: flex;
+        margin-top: 30px;
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+        height: 90vh;
+       }
+       .image{
+        display: flex;
+        width: 40%;
+        height: 80vh;
+        margin-top: 20px;
+        margin-left: 20px;
+        border: none;
+        border-radius: 10px;
+       }
+       .image img{
+        border: none;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+       }
+       .spiling{
+        width: 60%;
+        height: 90vh;
+       }
+       .spiling button{
+        font-size: 30px;
+        background-color: red;
+        border: none;
+        border-radius: 10px;
+        text-align: center;
+        margin-top:-25px;
+        margin-left: 50px;
+        cursor: pointer;
+        color:  white;
+       }
+       .go{
+        width: 100%;
+        height: 20vh;
+       }
+       .pic{
+        display: flex;
+        width: 100%;
+        height: 40vh;
+        background-color: #fde6e6;
+       }
+        .m{
+        display: flex;
+        width: 18%;
+        margin: 20px;
+        height: 33vh;
+        border-radius: 10px;
+        background-color: aquamarine;
+       }
+       .m img{
+        width: 100%;
+        height: 33vh;
+        border-radius: 10px;
+        border: none;
+       }
+       .login{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        background-color: blue;
+       }
+       .fullimg{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(loging.jpg);
+       }
+       .bachat{
+        width: 100%;
+        height: 100vh;
+
+       }
+       .signupla{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+       
+       }
+       .sign{
+        display: flex;
+        width: 60%;
+        height: 80vh;
+        margin-top: 30px;
+        margin-left: 50px;
+        background-color:#fa5b5b
+    }
+    #name{
+        font-size: 20px;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        width: 350px;
+        margin-left:-375px;
+        margin-top: 100px;
+        height: 40px;
+    }
+     #phone{
+        font-size: 20px;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        width: 350px;
+        margin-left:-355px;
+        margin-top: 170px;
+        height: 40px;
+    }
+     #email{
+        font-size: 20px;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        width: 350px;
+        margin-left:-355px;
+        margin-top: 240px;
+        height: 40px;
+    }
+     #password{
+        font-size: 20px;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        width: 350px;
+        margin-left:-355px;
+        margin-top: 320px;
+        height: 40px;
+    }
+    .developer{
+        width: 100%;
+        height: 20vh;
+       }
+       .photo{
+        display: flex;
+        width: 100%;
+        height: 60vh;
+       }
+        .b{
+        display: flex;
+        width: 20%;
+        height: 45vh;
+        margin: 50px;
+        border-radius: 10px;
+        background-color:#fde6e6;
+       }
+       .last{
+        display: flex;
+        margin-top: 20px;
+        width: 100%;
+        height: 50vh;
+        background-color: rgb(10, 10, 94);
+       }
+        #haha{
+        font-size: 25px;
+        width: 250px;
+        height: 50px;
+        border: none;
+       }
+   @media screen and (max-width:1200px) {
+    #name{
+        margin-left: -330px;
+        width: 300px;
+    }
+    #email{
+        margin-left: -305px;
+        width: 300px;
+    }
+    #password{
+        margin-left: -305px;
+        width: 300px;
+    }
+    #phone{
+        margin-left: -305px;
+        width: 300px;
+    }
+    #haha{
+        margin-left: -50px;
+        margin-top: 20px;
+    }
+    .b{
+        width: 70%;
+        height: 35vh;
+    }
+    .sign{
+        height: 65vh;
+    }
+    .fullimg{
+        height: 80vh;
+    }
+    .login{
+        height: 80vh;
+    }
+     }
+     </style>
+</head>
+<body>
+    <div class="head">
+        <div class="ecourses">
+            <div class="ecourse"><h1>Ecourses</h1></div>
+            <div class="ecourse"><b>Our Office</b> <br><p>Next Planer Acadmey (SKD) Gilgit Baltistan Pakistan</p></div>
+            <div class="ecourse"><b>Email Us</b> <br><p>najmulbalghari23@gmail.com</p></div>
+            <div class="ecourse"><b>Cell Us</b> <br><p>03415890564</p></div>
+        </div>
+        <hr>
+        <div class="navigation">
+            <div class="subject"><h1>Subjects</h1></div>
+           <div class="navbar">
+            <div class="nav"><a href="#">Home</a></div>
+            <div class="nav"><a href="#">About</a></div>
+            <div class="nav"><a href="#">Courses</a></div>
+            <div class="nav"><a href="#">Developer</a></div>
+            <div class="nav"><a href="#">Blogs</a></div>
+            <div class="nav"><a href="#">Contact</a></div>
+           </div>
+           <div class="join">
+            <button>Join Us</button>
+           </div>
+        </div>
+    </div>
+    <div class="img">
+        <div class="home">
+            <h2>Best Online Courses</h2>
+            <h1>Best Education From </h1>
+            <h1>Your Home </h1>
+            <Button><a href="#">Learn More</a></Button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="image">
+            <img src="book.jpg" alt="Loading" width="100%" height="100%">
+        </div>
+        <div class="spiling">
+            <h1 style="font-size: 30px; color: black; margin-left: 50px;">ABOUT US</h1>
+            <h1 style="font-size: 35px; color: black; margin-left: 50px; margin-top: -15px;">Innovative Way To Learn</h1>
+            <p style="font-size: 30px; color: black; margin-left: 50px; margin-top: -20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sint sit cumque unde soluta veritatis nulla fugiat aliquam, quae quo blanditiis maiores cum aspernatur voluptatem quia magnam vitae quis odio.lor Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati esse cumque ad rem tenetur expedita tempora perspiciatis fuga, blanditiis, odit nemo iste fugit. Atque molestias blanditiis inventore. Vel, quisquam vero.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eum officiis ratione ut ea culpa esse quam similique, in, inventore quasi sunt, expedita consectetur maiores magnam nisi incidunt explicabo aliqua.</p>
+            <button>Learn More</button>
+        </div>
+    </div>
+        <div class="go">
+            <h1 style="text-align: center; font-size: 30px; color: #b74b4b;"><i>SUBJECT</i></h1>
+            <h1 style="text-align: center; font-size: 30px;">Explore Top Subjects</h1>
+    </div>
+    <div class="pic">
+        <div class="m"><img src="computer.jpg" alt="Loading"></div>
+        <div class="m"><img src="computer1.jpg" alt="Loading"></div>
+        <div class="m"><img src="computer2.jpg" alt="Loading"></div>
+        <div class="m"><img src="computer4.jpg" alt="Loading"></div>
+        <div class="m"><img src="computer5.jpg" alt="Loading"></div>
+    </div>
+    <div class="login">
+        <div class="fullimg">
+            <div class="bachat">
+                     <h1 style="font-size: 35px; color: #ffa6a6; margin-left: 100px; margin-top: 50px;">NEED ANY COURSES</h1>
+            <h1 style="font-size: 40px; color: white; margin-top: 30px; margin-left: 80px;">30% OF For New Students</h1>
+            <p style="font-size: 30px; margin-left: 50px; color: black; " id="Lo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate doloribus, repudiandae voluptate tenetur ex doloremque ad magnam et laborum corrupti nam illo placeat deleniti debitis, error consectetur! Rerum, fuga laborum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod assumenda quidem debitis architecto.</p> 
+            </div>
+            <div class="signupla">
+                <div class="sign">
+                    <h1 style="background-color: white; font-size: 35px; width: 100%; height: 70px; margin: 0; padding: 0; text-align: center;">Sign Up</h1>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                    <input type="number" name="phone" id="phone" placeholder="Enter Your Ph.NO">
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                    <input type="password" name="password" id="password" placeholder="Enter Your Password">
+                    <button style="font-size: 30px; width: 200px; height: 50px; margin-top: 400px; margin-left: -280px; border: none; border-radius: 10px; cursor: pointer;">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="developer">
+            <h1 style="text-align: center; font-size: 30px; color: #b74b4b;"><i>Developers</i></h1>
+            <h1 style="text-align: center; font-size: 30px;">Meet Our Developer</h1>
+    </div>
+    <div class="photo">
+        <div class="b"><h1 style="margin-left: 10px; padding: 0;">Najmul Akash</h1> <h1 style="margin-left: -200px; margin-top: 70px;">Graphic</h1><h1 style="margin-left: -110px; margin-top: 110px;">Freelancing</h1><h1 style="margin-left: -160px; margin-top: 150px;">Java</h1><h1 style="margin-left: -65px; margin-top: 190px;">C++</h1>
+        </div>
+        <div class="b"><h1 style="margin-left: 10px; padding: 0;">Yaseen Malik</h1> <h1 style="margin-left: -190px; margin-top: 70px;">Python</h1><h1 style="margin-left: -100px; margin-top: 110px;">Freelancing</h1><h1 style="margin-left: -160px; margin-top: 150px;">Java</h1><h1 style="margin-left: -65px; margin-top: 190px;">Web Design</h1></div>
+        <div class="b"><h1 style="margin-left: 10px; padding: 0;">Inam Ullah</h1> <h1 style="margin-left: -160px; margin-top: 70px;">Graphic</h1><h1 style="margin-left: -110px; margin-top: 110px;">Freelancing</h1><h1 style="margin-left: -160px; margin-top: 150px;">Java</h1><h1 style="margin-left: -65px; margin-top: 190px;">C++</h1></div>
+        <div class="b"><h1 style="margin-left: 10px; padding: 0;">Tajwar </h1> <h1 style="margin-left: -100px; margin-top: 70px;">Graphic</h1><h1 style="margin-left: -110px; margin-top: 110px;">Freelancing</h1><h1 style="margin-left: -160px; margin-top: 150px;">Java</h1><h1 style="margin-left: -65px; margin-top: 190px;">C++</h1></div>
+    </div>
+    <div class="last">
+        <h1 style="font-size: 25px; color: #ff2626; margin-left: 50px;">GET IN TOUCH</h1>
+        <br>
+        <h2 style="font-size: 20px; color:white; margin-left: -180px; margin-top: 60px;">123 Street, New York,USA  <br><br>+923415890564 <br><br>najmulbalghari23@gmail.com</h2>
+        <h1 style="font-size: 25px; margin-left: 200px; color: #ff2626;">OUR COURSES</h1>
+        <br>
+        <h2 style="font-size: 20px; color: white; margin-left: -180px; margin-top: 60px;">Web-Design <br><br>Apps-Design <br><br>Marketing Research <br><br>SEO</h2>
+        <h1 style="font-size: 25px; color: #ff2626; margin-left: 150px;">NEW SLETTER</h1>
+        <br>
+        <h2 style="font-size: 20px; color: white; margin-left: -200px; margin-top: 60px;">Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Labore atque nobis doloremque quibusda <br>masperiores tenetur molestiae? Harum sitbr <br>iure repellat officia! Ipsam cumque voluptatibus  <br>ut quos! Et dolore nulla voluptas. <br><br>
+            <input type="email" name="" id="haha" placeholder="Enter Your Email" required>
+            <button style="font-size: 25px; width: 150px; height: 50px; border: none; background-color:  rgb(255, 109, 109); cursor: pointer;">Sign Up</button>
+        </h2>
+        <br>
+        <h1 style="font-size: 15px; text-align: center; color: white; margin-left: -850px; margin-top: 300px;">Domain Name. All Rights Reserved.Designed by Najmul Balghari.</h1>
+    </div>
+    </body>
+</html> 

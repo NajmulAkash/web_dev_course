@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+a{text-decoration:none;color:black;}
+button{cursor:pointer;}
+/* ================== HEADER ================== */
+.ecourse{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 50px;
+    background:rgb(231, 236, 179);
+}
+
+.ecourse h1{color:#b74b4b;font-size:40px;}
+.ecourse .contact h3{font-size:18px;line-height:1.3;}
+
+/* ================== NAV ================== */
+.subject{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 50px;
+    background:rgb(243, 196, 164);
+    flex-wrap:wrap;
+}
+
+.sub h1{font-size:20px;background:rgb(245,236,224);padding:10px 20px;border-radius:5px;transition: 1.2s ease;}
+.sub h1:hover{
+    transform: scale(1.2s);
+    background-color: rgb(80, 204, 80);
+}
+.nav-links{display:flex;gap:35px;flex-wrap:wrap; font-size: 20px;}
+.nav-links a:hover{color:white;font-size: 22px;}
+.subject button{
+    background:red;color:white;border:none;padding:10px 20px;border-radius:10px;font-size:20px;transition: 1.2s ease;
+}
+.subject button:hover{transform: scale(1.2s);background-color: rgb(80, 204, 80);}
+.img{
+    position:relative;
+    height:100vh;
+    background:url('loging.jpg') center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-left:50px;
+    color:wheat;
+}
+.domain{display:flex;justify-content:space-around;padding:30px;background:rgb(6,6,128);color:white;flex-wrap:wrap;}
+.domain div{flex:1;margin:10px;}
+.domain h1{margin-bottom:10px;font-size:22px;}
+.domain h2,p{font-size:16px;}
+.domain input{padding:10px;width:70%;border:none;border-radius:5px;margin-top:10px;}
+.domain button{padding:10px 20px;background:red;border:none;color:white;border-radius:5px;margin-top:10px; transition: 1.2s ease;}
+.domain button:hover{
+    transform: scale(1.2s);
+    background-color: rgb(80, 204, 80);
+    color: black;
+}
+.d h1{
+    color: #b74b4b;
+}
+.o h1{
+    color: #b74b4b;
+}
+.n h1{
+    color: #b74b4b;
+}
+ .page-title{
+    font-size:48px;
+    color:white;
+    margin-bottom:25px;
+    text-align: center;
+}
+.hero{
+    background-image: url(loging.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: 100% 70vh;
+    justify-content: space-around;
+}
+
+/* FORM BOX */
+.contact-form{
+    background:#ff4d4d;
+    width:100%;
+    max-width:450px;
+    padding:30px;
+    border-radius:12px;
+}
+
+.contact-form h2{
+    margin-bottom:20px;
+    color:black;
+}
+
+/* FORM */
+.contact-form form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact-form input{
+    width:100%;
+    padding:12px;
+    font-size:16px;
+    border:none;
+    border-radius:8px;
+}
+
+.contact-form button{
+    padding:14px;
+    font-size:18px;
+    border:none;
+    border-radius:10px;
+    background:orange;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact-form button:hover{
+    background:rgb(80,204,80);
+    color:black;
+}
+
+/* FORM */
+.contact-form{
+    background:#ff4d4d;
+    padding:30px;
+    width:100%;
+    max-width:450px;
+    border-radius:12px;
+}
+.contact-form h2{margin-bottom:20px}
+.contact-form form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+.contact-form input{
+    padding:12px;
+    border-radius:8px;
+    border:none;
+}
+.contact-form button{
+    padding:14px;
+    background:orange;
+    color:white;
+    border-radius:10px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size</title>
+    <style>
+        .main{
+            display: flex;
+        justify-content:space-between;
+        }
+         .mains{
+            width: 100%;
+         }
+       
+         .main1{
+            width: 250px;
+            height: 250px;
+            background-color: rgb(80, 141, 121);
+        }
+         .main2{
+            width: 250px;
+            height: 250px;
+            background-color: rgb(220, 228, 245);
+        }
+         .main3{
+            width: 250px;
+            height: 250px;
+            background-color: rgb(252, 9, 49);
+        }
+         .main4{
+            width: 250px;
+            height: 250px;
+            background-color: rgb(252, 9, 220);
+        }
+        .Main{
+            display: flex;
+            justify-content: space-between;
+        }
+        .n1{
+            width: 250px;
+            height: 250px;
+            background-color: rgb(226, 110, 43);
+        }
+        .n2{
+            width: 250px;
+            height: 250px;
+            background-color: rgb(43, 226, 165);
+        }
+        .n3{
+            width: 250px;
+            height: 250px;
+            background-color: blueviolet;
+        }.n4{
+            width: 250px;
+            height: 250px;
+            background-color: rgb(226, 43, 58);
+        }
+
+         @media only screen and (max-width:1015px ) {
+            .mains{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+            }
+           .n1 {
+            width: 100%;
+           }
+            .main{
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+            }
+            .main1,.main2,.main3,.main4{
+                margin: 10px 0;
+                width: 100%;
+            }
+
+        }
+        @media only screen and (max-width:600px) {
+            .mains{
+                flex-direction: column;
+            }
+            
+        }
+        .parac{
+            width: 100%;
+            height: 100vh;
+        }
+        .parac h1{
+            font-size: 70px;
+        }
+        .parac p{
+            font-size: 40px;
+           text-align: justify;
+           line-height: 60px;
+           margin-top: -35px;
+        }
+        @media screen and(max-width: 1340px) {
+            .parac p{
+                line-height: 40px;
+            }
+        }
+         @media screen and(max-width: 900px) {
+            .parac p{
+                line-height: 20px;
+                font-size: 25px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+     <div class="parac">
+    <h1>this is heading</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, odio excepturi natus tempora voluptatem, minus totam, eius ducimus voluptatibus non pariatur esse. Voluptates in neque exercitationem accusantium aliquid alias iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, reiciendis molestias qui veritatis rerum atque impedit repellat possimus beatae, voluptate commodi autem in saepe corrupti debitis mollitia laboriosam distinctio incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. In vero aspernatur fugit distinctio animi illum dolorum odio libero alias, rerum, cupiditate officiis nostrum tenetur incidunt laudantium. Eligendi officia vero alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum maxime quam ipsa magnam recusandae nisi atque consequatur illo beatae itaque et cumque vel, consequuntur ad ullam commodi eos fugit. Harum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae voluptatibus, laudantium repellat tenetur veniam necessitatibus quisquam ducimus asperiores fuga porro veritatis reprehenderit, obcaecati dolorem. Reiciendis atque illo corporis numquam quaerat!</p>
+   </div>
+   <div class="mains">
+     <div class="main">
+        <div class="main1"></div>
+        <div class="main2"></div>
+        <div class="main3"></div>
+        <div class="main4"></div>
+    </div>
+    <div class="main">
+        <div class="n1"></div>
+        <div class="n2"></div>
+        <div class="n3"></div>
+        <div class="n4"></div>
+    </div>
+   </div>
+   <div>
+
+   </div>
+  
+</body>
+</html>

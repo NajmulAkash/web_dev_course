@@ -1,0 +1,172 @@
+/* ================= RESPONSIVE ================= */
+
+/* ---------- TABLET (max-width: 992px) ---------- */
+@media (max-width: 992px){
+
+    .ecourse{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .subject{
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .nav-links{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .img{
+        padding-left: 20px;
+        height: 70vh;
+        text-align: center;
+    }
+
+    .img h1{
+        font-size: 45px;
+    }
+
+    .img h2{
+        font-size: 28px;
+    }
+
+    .explore1{
+        flex-wrap: wrap;
+        height: auto;
+        gap: 20px;
+    }
+
+    .expl1, .expl2, .expl3, .expl4{
+        width: 45%;
+        height: 30vh;
+    }
+
+    .domain{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+/* ---------- MOBILE (max-width: 768px) ---------- */
+@media (max-width: 768px){
+
+    .ecourse h1{
+        font-size: 30px;
+    }
+
+    .ecourse .contact h3{
+        font-size: 16px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        gap: 10px;
+        font-size: 18px;
+    }
+
+    .subject button{
+        width: 100%;
+    }
+
+    .img{
+        height: 60vh;
+        padding: 10px;
+    }
+
+    .img h1{
+        font-size: 35px;
+    }
+
+    .img h2{
+        font-size: 22px;
+    }
+
+    .explore1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .expl1, .expl2, .expl3, .expl4{
+        width: 90%;
+        height: 28vh;
+    }
+
+    .explore1 h2{
+        font-size: 30px;
+        margin-top: 80px;
+    }
+
+    .explore1 h3{
+        font-size: 22px;
+    }
+
+    .domain{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .domain input{
+        width: 90%;
+    }
+}
+
+/* ---------- SMALL MOBILE (max-width: 480px) ---------- */
+@media (max-width: 480px){
+
+    .img h1{
+        font-size: 28px;
+    }
+
+    .img h2{
+        font-size: 18px;
+    }
+
+    .sub h1{
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+
+    .explore1 h2{
+        font-size: 25px;
+    }
+
+    .explore1 h3{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:1300px) {
+    .img{
+        height: 60vh;
+    }
+}
+@media screen and (max-width:1000px) {
+    .img{
+        height: 50vh;
+    }
+}
+@media screen and (max-width:800px) {
+    .img{
+        height: 40vh;
+    }
+}
+@media screen and (max-width:600px) {
+    .img{
+        height: 30vh;
+    }
+    .img h2{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:461px) {
+    .img{
+        height: 20vh;
+    }
+    .img h2{
+        margin-top: 30px;
+    }
+}

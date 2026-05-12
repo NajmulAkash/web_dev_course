@@ -1,0 +1,43 @@
+import React from 'react'
+import { useState } from "react";
+const Navbar = () => {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <nav className="fixed w-full bg-gray-900 shadow z-50 ">
+      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+        <h1 className="text-2xl font-bold text-indigo-400">
+          MyPortfolio
+        </h1>
+
+   
+        <ul className="hidden md:flex gap-8 font-medium">
+          <a href="#Home"><li className="hover:text-teal-500 cursor-pointer text-white">Home</li></a>
+          <a href="#About"><li className="hover:text-teal-500 cursor-pointer text-white">About</li></a>
+        <a href="#projects"><li className="hover:text-teal-500 cursor-pointer text-white">Projects</li></a>
+          <a href="#Developers"><li className="hover:text-teal-500 cursor-pointer text-white">Developers</li></a>
+          <a href="#Contact"><li className="hover:text-teal-500 cursor-pointer text-white">Contact</li></a>
+        </ul>
+
+        <button
+          onClick={() => setOpen(!open)}
+          className="md:hidden text-2xl text-white"
+        >
+          ☰
+        </button>
+      </div>
+      
+      {open && (
+        <ul className="md:hidden bg-gray-600 px-6 pb-4 font-medium space-y-3">
+          <a href="#Home"><li className='text-white'>Home</li></a>
+          <a href="#About"><li className='text-white'>About</li></a>
+          <a href="#projects"><li className='text-white'>Projects</li></a>
+          <a href="#Developers"><li className='text-white'>Developers</li></a>
+          <a href="#Contact"><li className='text-white'>Contact</li></a>
+        </ul>
+      )}
+    </nav>
+  );
+};
+
+export default Navbar;

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<style>
+body{
+  scroll-behavior:smooth;
+}
+.hero{
+  min-height:100vh;
+  background: linear-gradient(to right,#0059ff,#bdc8ca);
+  color:white;
+}
+.profile-img{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  object-fit:cover;
+  border:5px solid #fff;
+}
+.section{
+  padding:80px 0;
+}
+.title{text-align:center;margin-bottom:60px;}
+.title h2{font-weight:700;}
+.service-box,.skill-box{
+  background:white;
+  padding:35px;
+  border-radius:25px;
+  text-align:center;
+  /* box-shadow:0 20px 40px rgba(0,0,0,.15); */
+  transition:.5s;
+}
+.service-box i,.skill-box i{
+  font-size:45px;
+  color:#c33764;
+  margin-bottom:15px;
+  transition:.2s;
+}
+.service-box:hover,.skill-box:hover{
+  transform:translateY(-20px) scale(1);
+  box-shadow:0 40px 80px rgba(0,0,0,.3);
+}
+.service-box:hover i,.skill-box:hover i{
+  /* transform:scale(1.4) rotate(15deg); */
+}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#">MyPortfolio</a>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero d-flex align-items-center">
+<div class="container">
+<div class="row align-items-center text-center text-md-start">
+<div class="col-md-6">
+<h1 class="display-4 fw-bold">Hi, I'm Najmul Akash</h1>
+<p class="lead">Web Developer | Web Designer</p>
+<a href="#contact" class="btn btn-light mt-3">Contact Me</a>
+</div>
+<div class="col-md-6 text-center">
+<img src="najmul.jpeg" class="profile-img" alt="Profile" style="width: 300px; height: 300px;">
+</div>
+</div>
+</div>
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+<div class="container text-center">
+<h2>About Me</h2>
+<p class="mt-3">
+Main ek passionate web developer hoon jo HTML, CSS, Bootstrap aur JavaScript se
+beautiful aur responsive websites banata hun Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic soluta nostrum facilis in iste ab saepe sint praesentium odit aperiam exercitationem illo nemo, deserunt cupiditate. Nostrum omnis dolorem vel aut!.
+</p>
+</div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+<div class="container">
+<div class="title"><h2>Skills</h2></div>
+<div class="row g-4">
+<div class="col-md-3"><div class="skill-box"><i class="fab fa-html5"></i><p>HTML5</p></div></div>
+<div class="col-md-3"><div class="skill-box"><i class="fab fa-css3-alt"></i><p>CSS3</p></div></div>
+<div class="col-md-3"><div class="skill-box"><i class="fab fa-bootstrap"></i><p>Bootstrap</p></div></div>
+<div class="col-md-3"><div class="skill-box"><i class="fab fa-js"></i><p>JavaScript</p></div></div>
+</div>
+</div>
+</section>
+<br><br> <br>
+
+<div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar text-bg-info" style="width: 50%">Css 50%</div>
+</div><br>
+<div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar text-bg-danger" style="width: 100%">JavaScript 84%</div>
+</div> <br>
+<div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar text-bg-warning" style="width: 75%"> Boostrep75%</div>
+</div><br>
+<div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><br>
+  <div class="progress-bar text-bg-success" style="width: 25%">Html 25%</div>
+</div>
+
+
+<!-- Projects -->
+<section id="projects" class="section">
+<div class="container">
+<h2 class="text-center">Projects</h2>
+<div class="row mt-4">
+<div class="col-md-4 mb-3">
+<div class="card shadow">
+<div class="card-body">
+<h5>Portfolio Website</h5>
+<p>Personal responsive portfolio using Bootstrap.</p>
+<a class="btn btn-primary" href="bestportfolio.html" role="button">Click Me</a>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-3">
+<div class="card shadow">
+<div class="card-body">
+<h5>Landing Page</h5>
+<p>Modern landing page design.</p>
+<a class="btn btn-primary" href="#contact" role="button">Click Me</a>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-3">
+<div class="card shadow">
+<div class="card-body">
+<h5>Simple Website</h5>
+<p>HTML & CSS based website.</p>
+<a class="btn btn-primary" href="comtask.html" role="button">Click Me</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contact Form -->
+<section id="contact" class="section bg-dark text-white">
+<div class="container">
+<h2 class="text-center">Contact Me</h2>
+<div class="row justify-content-center mt-4">
+<div class="col-md-6">
+<form>
+<input type="text" class="form-control mb-3" placeholder="Your Name">
+<input type="email" class="form-control mb-3" placeholder="Your Email">
+<textarea class="form-control mb-3" placeholder="Your Message"></textarea>
+<button class="btn btn-primary w-100">Send Message</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-white text-center p-3">
+© Domain Name. All Rights Reserved.Designed by Najmul Akash.
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
